@@ -6,13 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Desktop
-  Date: 2018/3/21
-  Time: 20:06
-  To change this template use File | Settings | File Templates.
---%>
 <%@include file="/WEB-INF/views/template/header.jsp"%>
 
 <div class="container-wrapper">

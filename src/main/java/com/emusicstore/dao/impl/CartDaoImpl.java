@@ -2,6 +2,7 @@ package com.emusicstore.dao.impl;
 
 import com.emusicstore.dao.CartDao;
 import com.emusicstore.model.Cart;
+import com.emusicstore.service.CustomerOrderService;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,8 @@ import java.io.IOException;
 public class CartDaoImpl implements CartDao {
 
     @Autowired
+    CustomerOrderService customerOrderService;
+    @Autowired
     private SessionFactory sessionFactory;
     public Cart getCartById(int CartId) {
         Session session = sessionFactory.getCurrentSession();
@@ -23,7 +26,11 @@ public class CartDaoImpl implements CartDao {
 
     public void update(Cart cart) {
         int cartId = cart.getCartId();
-        //TODO later
+        double grandTotal = customerOrderService.getCustomerOrderGrandTotal(cartId);
+        cart.setGrandTotal(grandTotal);
+
+        Session session = sessionFactory.getCurrentSession();
+        session.saveOrUpdate(cart);
     }
 
     public Cart validate(int cartId) throws IOException{
