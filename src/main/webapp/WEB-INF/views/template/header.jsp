@@ -20,15 +20,24 @@
 
     <!-- Angular JS -->
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
+
+    <%--Jquery--%>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <%--Data Table--%>
+    <script type="text/javascript" src="http://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
     <!-- fontawesome CSS -->
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
-
     <link href="<c:url value = "/resources/css/bootstrap.min.css"/>" rel="stylesheet">
-    <link href="<c:url value = "/resources/css/main.css"/>" rel="stylesheet">
 
+    <link href="<c:url value = "/resources/css/main.css"/>" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="<c:url value = "/resources/css/carousel.css"/>" rel="stylesheet">
+
+    <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
 
 
 </head>
@@ -47,7 +56,7 @@
                     <a class="nav-link" href="<c:url value="/" />">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<c:url value="/product/productList" />">Products</a>
+                    <a class="nav-link" href="<c:url value="/product/productList/all" />">Products</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#">Disabled</a>

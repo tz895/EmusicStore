@@ -47,7 +47,7 @@
 
         <security:form-login
             login-page="/login"
-            default-target-url="/product/productList/"
+            default-target-url="/product/productList/all"
             authentication-failure-url="/login?error"
             username-parameter="username"
             password-parameter="password"/>

@@ -22,7 +22,7 @@
         <section class="container" >
 
             <p>
-                <a href="<spring:url value="/product/productList"/>" class="btn btn-primary">Products</a>
+                <a href="<spring:url value="/product/productList/all"/>" class="btn btn-primary">Products</a>
             </p>
 
         </section>

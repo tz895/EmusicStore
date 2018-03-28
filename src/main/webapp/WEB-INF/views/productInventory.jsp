@@ -10,7 +10,14 @@
 <%@include file="/WEB-INF/views/template/header.jsp"%>
 
 
+<script>
+    $(document).ready(function () {//when the document is finished loading,start to execute the function
 
+        $('table').DataTable({
+            "lengthMenu":[[5,10,20,30,50,-1],[5,10,20,30,50,"All"]],
+        });
+    })
+</script>
 
 
 <div class="container-wrapper">
