@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0fa34b4-d3b8-47ff-b6aa-8ae98e3e185a" name="Default" comment="3/27 22:32&#10;Done.&#10;TODO,add order history">
+    <list default="true" id="c0fa34b4-d3b8-47ff-b6aa-8ae98e3e185a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/emusicstore/controller/admin/AdminHome.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
-              <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+              <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -656,7 +656,7 @@
       <workItem from="1521858188507" duration="2108000" />
       <workItem from="1521913420577" duration="39552000" />
       <workItem from="1522197631766" duration="6035000" />
-      <workItem from="1522204449389" duration="68000" />
+      <workItem from="1522204449389" duration="1077000" />
     </task>
     <task id="LOCAL-00001" summary="3/26 14.46">
       <created>1522090060283</created>
@@ -714,11 +714,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522204380267</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="3/27 22:32&#10;Done.&#10;TODO,add order history.">
+      <created>1522204535727</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522204535727</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145311000" />
+    <option name="totallyTimeSpent" value="146320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -771,7 +778,8 @@
     <MESSAGE value="3/26 22.44" />
     <MESSAGE value="3/26 22.51&#10;commit all files change" />
     <MESSAGE value="3/27 22:32&#10;Done.&#10;TODO,add order history" />
-    <option name="LAST_COMMIT_MESSAGE" value="3/27 22:32&#10;Done.&#10;TODO,add order history" />
+    <MESSAGE value="3/27 22:32&#10;Done.&#10;TODO,add order history." />
+    <option name="LAST_COMMIT_MESSAGE" value="3/27 22:32&#10;Done.&#10;TODO,add order history." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1205,7 +1213,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/emusicstore/controller/admin/AdminHome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
           <folding />
         </state>
       </provider>
