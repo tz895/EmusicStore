@@ -7,7 +7,7 @@
     
     <action-state id="addCartToOrder">
         <evaluate expression="cartDaoImpl.validate(requestParameters.cardId)" result="order.cart" />
-        <transition to="InvalidCartWarning" on-exception="java.io.IOException" />
+        <transition to="invalidCartWarning" on-exception="java.io.IOException" />
         <transition to="collectCustomerInfo" />
     </action-state>
 

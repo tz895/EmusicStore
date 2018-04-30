@@ -10,7 +10,7 @@ import java.io.Serializable;
 public class BillingAddress implements Serializable{
 
 
-    private static final long serialVersionUID = -6091579459463730482L;
+    private static final long serialVersionUID = -6884713484505763453L;
 
     @Id
     @GeneratedValue

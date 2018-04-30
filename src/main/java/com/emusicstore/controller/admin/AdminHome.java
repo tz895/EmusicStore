@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -52,7 +53,13 @@ public class AdminHome {
     @RequestMapping("/orderHistory")
     public String orderHistory(Model model) {
         List<CustomerOrder> customerOrders = customerOrderService.getAllCustomerOrders();
+        List<Customer> customerList = new ArrayList<Customer>();
+        for(CustomerOrder customerOrder: customerOrders) {
+            Customer customer = customerOrder.getCustomer();
+            customerList.add(customer);
+        }
         model.addAttribute(customerOrders);
+        model.addAttribute(customerList);
 
         return "orderHistory";
     }

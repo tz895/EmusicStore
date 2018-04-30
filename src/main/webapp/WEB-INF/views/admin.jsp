@@ -31,6 +31,15 @@
 
         <p>Here you can view the customer information</p>
 
+        <br><br>
+
+
+        <h3>
+            <a href = "<c:url value="/admin/orderHistory" />">Order History</a>
+        </h3>
+
+        <p>Here you can view the order history</p>
+
     </div>
 </div><!-- /.container -->
 
